@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load static %}
+{% block main %}
+<h1>Python クイズ</h1>
+<h2></h2>
+{% include "_form.html" with submit_label="ログイン" %}
+<img src ="{% static 'welcome.jpg' %}"/>
+
+{% endblock %}
+
